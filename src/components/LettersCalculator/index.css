@@ -1,0 +1,55 @@
+/* Write your code here. */
+.app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 90vh;
+  width: 70vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px;
+  width: 200px;
+  background-color: transparent;
+  margin-left: 30px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 32px;
+  font-family: roboto;
+  font-weight: bold;
+}
+.content {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: roboto;
+  color: #ffffff;
+}
+.input-element {
+  background-color: transparent;
+  border: 1px solid #93f9b9;
+  height: 30px;
+  outline: none;
+}
+.letter-count {
+  background-color: #ffffff;
+  font-size: 20px;
+  color: #1d976c;
+  font-weight: bold;
+  font-family: roboto;
+  text-align: center;
+  height: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  height: 500px;
+  width: 550px;
+}
